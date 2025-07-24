@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contoh Halaman dengan Link Affiliate</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>Produk Unggulan Kami</h1>
+            <p>Dapatkan diskon khusus dengan menggunakan link affiliate kami</p>
+        </header>
+        
+        <main>
+            <div class="product-card">
+                <img src="https://via.placeholder.com/300" alt="Produk Contoh" class="product-image">
+                <h2>Nama Produk</h2>
+                <p class="price">Rp 1.000.000</p>
+                <p class="description">Deskripsi singkat tentang produk yang ditawarkan.</p>
+                
+                <div class="affiliate-section">
+                    <h3>Bagikan Link Affiliate Anda</h3>
+                    <div class="affiliate-link">
+                        <input type="text" id="affiliateLink" value="https://example.com/ref=12345" readonly>
+                        <button onclick="copyAffiliateLink()">Salin Link</button>
+                    </div>
+                    <p class="commission">Dapatkan komisi 10% untuk setiap pembelian melalui link ini!</p>
+                    
+                    <div class="share-buttons">
+                        <button class="share-btn whatsapp" onclick="shareOnWhatsApp()">
+                            <i class="icon">WhatsApp</i>
+                        </button>
+                        <button class="share-btn facebook" onclick="shareOnFacebook()">
+                            <i class="icon">Facebook</i>
+                        </button>
+                        <button class="share-btn twitter" onclick="shareOnTwitter()">
+                            <i class="icon">Twitter</i>
+                        </button>
+                    </div>
+                </div>
+                
+                <button class="buy-btn">Beli Sekarang</button>
+            </div>
+        </main>
+        
+        <footer>
+            <p>© 2023 Program Affiliate Kami. Semua hak dilindungi.</p>
+        </footer>
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
